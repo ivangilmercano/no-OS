@@ -1,5 +1,5 @@
-ADP1050 no-OS Example Project
-=============================
+Evaluating the ADP1050
+======================
 
 .. contents::
 	:depth: 3
