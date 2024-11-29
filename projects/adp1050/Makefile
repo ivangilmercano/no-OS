@@ -2,8 +2,8 @@
 BASIC_EXAMPLE = n
 IIO_EXAMPLE = y
 
-include ../../tools/scripts/generic_variables.mk
+		include ../../tools/scripts/generic_variables.mk
 
-include src.mk
+		include src.mk
 
-include ../../tools/scripts/generic.mk
+		include ../../tools/scripts/generic.mk
