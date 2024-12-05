@@ -113,6 +113,15 @@ int basic_example_main()
 	if (ret)
 		goto exit;
 
+	ret = adp1051_llm_dllm_comm_setting(adp1050_desc, ADP1051_82US_7B, 
+							ADP1051_41US_6B_AVG, ADP1051_3LSB);
+	if (ret)
+		goto exit;
+
+	ret = adp1051_llm_dllm_setting(adp1050_desc, ADP1051_0MS, ADP1051_0mv, 1);
+	if (ret)
+		goto exit;
+
 exit:
 	if (ret)
 		pr_info("Error!\n");
